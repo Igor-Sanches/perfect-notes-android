@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/iditor_align_left"
+                android:icon="@drawable/ic_action_align_left"
+                android:visible="false"
+                android:title="@string/align_left"
+                android:tooltipText="@string/align_left"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/iditor_align_center"
+                android:visible="false"
+                android:icon="@drawable/ic_action_align_center"
+                android:title="@string/align_center"
+                android:tooltipText="@string/align_center"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/iditor_align_right"
+                android:visible="false"
+                android:icon="@drawable/ic_action_align_right"
+                android:title="@string/align_right"
+                android:tooltipText="@string/align_right"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/iditor_bold"
+                android:icon="@drawable/ic_action_bold"
+                android:title="@string/bold"
+                android:tooltipText="@string/bold"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/iditor_italic"
+                android:icon="@drawable/ic_action_italic"
+                android:title="@string/italic"
+                android:tooltipText="@string/italic"
+                app:showAsAction="always" />
+    <item
+        android:id="@+id/iditor_font"
+        android:icon="@drawable/ic_action_font"
+        android:orderInCategory="100"
+        android:title="@string/font"
+        android:tooltipText="@string/font"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/ic_acao_fonte_family"
+                android:icon="@drawable/ic_action_font_family"
+                android:title="@string/font_family"
+                android:tooltipText="@string/font_family"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/ic_acao_font_size"
+                android:icon="@drawable/ic_action_font_size"
+                android:title="@string/fonf_size"
+                android:tooltipText="@string/fonf_size"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/iditor_narrador"
+        android:icon="@drawable/ic_action_narrador"
+        android:orderInCategory="101"
+        android:title="@string/narrar"
+        android:tooltipText="@string/narrar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iditor_limpa_text"
+        android:icon="@drawable/ic_action_limpa_text"
+        android:orderInCategory="102"
+        android:title="@string/clear"
+        android:tooltipText="@string/clear"
+        app:showAsAction="always" />
+</menu>

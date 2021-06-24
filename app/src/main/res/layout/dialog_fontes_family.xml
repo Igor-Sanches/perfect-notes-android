@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/font_family_sansserif"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="left"
+                    android:text="@string/isdefault"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_family_sansserifcondensed"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:text="Sans Serif Condensed"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_family_serif"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="left"
+                    android:text="Serif"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_family_monospace"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:gravity="left"
+                    android:text="Monospace"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_family_serifmonospace"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="left"
+                    android:text="Serif Monospce"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_family_casual"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:gravity="left"
+                    android:text="Casual"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_family_cursive"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:gravity="left"
+                    android:text="Cursive"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/font_fontfamily_sansserifsmallcaps"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="left"
+                    android:text="Sans serif Smallcaps"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

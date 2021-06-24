@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/font_size_default"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/isdefault"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/font_size_10"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="10"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="10sp" />
+                <Button
+                    android:id="@+id/font_size_12"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="12"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="12sp" />
+
+
+                <Button
+                    android:id="@+id/font_size_14"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="14"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/font_size_18"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="18"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/font_size_22"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="22"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/font_size_24"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="24"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/font_size_28"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="28"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/font_size_32"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="32"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="32sp" />
+
+                <Button
+                    android:id="@+id/font_size_36"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="36"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:id="@+id/font_size_40"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="40"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/font_size_48"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="46"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="48sp" />
+
+                <Button
+                    android:id="@+id/font_size_56"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="56"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="56sp" />
+
+                <Button
+                    android:id="@+id/font_size_60"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="60"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="60sp" />
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

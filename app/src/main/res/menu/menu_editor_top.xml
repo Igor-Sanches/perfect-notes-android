@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+       <item
+           android:id="@+id/ic_acao_edit"
+           android:icon="@drawable/ic_action_editar"
+           android:title="@string/add_title"
+           android:tooltipText="@string/add_title"
+           app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_acao_Copia"
+        android:icon="@drawable/ic_action_copia"
+        android:orderInCategory="107"
+        android:title="@string/copy"
+        android:tooltipText="@string/copy"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_acao_bloquear"
+        android:icon="@drawable/ic_action_lock"
+        android:title="@string/lock"
+        android:tooltipText="@string/lock"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_acao_desbloquear"
+        android:icon="@drawable/ic_action_unlock"
+        android:title="@string/unlock"
+        android:tooltipText="@string/unlock"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_acao_replace"
+        android:icon="@drawable/ic_action_replace"
+        android:title="@string/replace"
+        android:tooltipText="@string/replace"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/ic_action_compartilhar"
+        android:title="@string/share"
+        android:tooltipText="@string/share"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item
+                android:id="@+id/ic_acao_qr_share"
+                android:icon="@drawable/ic_action_qr_code"
+                android:title="@string/share_qr"
+                android:tooltipText="@string/share_qr"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/ic_acao_compartilhar"
+                android:icon="@drawable/ic_action_compartilhar"
+                android:title="@string/share_apps"
+                android:tooltipText="@string/share_apps"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/ic_acao_zap_share"
+                android:icon="@drawable/ic_action_whatsapp"
+                android:title="@string/share_zap"
+                android:tooltipText="@string/share_zap"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+    <item
+        android:icon="@drawable/ic_action_salvar_como"
+        android:title="@string/save_as"
+        android:tooltipText="@string/save_as"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item
+                android:id="@+id/ic_acao_salvar_como"
+                android:icon="@drawable/ic_action_save_text"
+                android:title="@string/save_text"
+                android:tooltipText="@string/save_text"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/ic_acao_save_pdf"
+                android:icon="@drawable/ic_action_save_pdf"
+                android:title="@string/save_pdf"
+                android:tooltipText="@string/save_pdf"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/ic_acao_print"
+        android:icon="@drawable/ic_action_imprimir"
+        android:orderInCategory="109"
+        android:title="@string/print"
+        android:visible="false"
+        android:tooltipText="@string/print"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ic_acao_apagar"
+        android:icon="@drawable/ic_action_excluir"
+        android:title="@string/close_exit"
+        android:tooltipText="@string/close_exit"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_acao_salvar"
+        android:icon="@drawable/ic_action_salvar"
+        android:orderInCategory="110"
+        android:title="@string/save"
+        android:tooltipText="@string/save"
+        app:showAsAction="always" />
+</menu>

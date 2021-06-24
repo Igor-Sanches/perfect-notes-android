@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/AppTheme"
+            app:title="@string/unlock"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_margin="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/unlock_key"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="@string/unlock_key"
+                    android:imeOptions="actionDone"
+                    android:maxLength="8"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/unlock_error_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/unlock_info_key"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/dialog_unlock_btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancelar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:theme="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/dialog_btn_unlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unlock"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:theme="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
